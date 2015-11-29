@@ -2,7 +2,7 @@ configuration:
   region: ap-northeast-1
   name: kintone-lambda-bigquery
   runtime: python2.7
-  role: arn:aws:iam::517139880093:role/lambda_exec_role
+  role: arn:aws:iam::<your-account-number>:role/lambda_exec_role
   handler: index.lambda_handler
   description: Call BigQuery API from Lambda
   timeout: 300
